@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+input[type=date]::-webkit-calendar-picker-indicator { filter: invert(0.6); }
+select option { background: #0d1a2d; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
